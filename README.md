@@ -19,4 +19,4 @@ Tested on Alt Linux 10. Created with KDevelop.
 
 
 ## License
-Zip Resotrer App licensed under the MIT License, see LICENSE file for more information.
+Zip  Resotrer App licensed under the MIT License, see LICENSE file for more information.
