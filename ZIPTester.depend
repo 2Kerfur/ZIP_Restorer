@@ -2683,3 +2683,16 @@
 	<stdio.h>
 	<gtk/gtk.h>
 
+1652851446 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/main.c
+	<stdlib.h>
+	<gtk/gtk.h>
+	"menu.h"
+
+1652851394 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/menu.h
+	<gtk/gtk.h>
+
+1652851459 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/menu.c
+	"menu.h"
+	<stdio.h>
+	<gtk/gtk.h>
+
