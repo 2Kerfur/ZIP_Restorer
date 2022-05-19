@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+
+#SPECIAL IGNORE
+**/bin
+**/obj
+
+*.depend
+*.layout
+*.sh
