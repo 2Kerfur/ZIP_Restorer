@@ -2683,16 +2683,32 @@
 	<stdio.h>
 	<gtk/gtk.h>
 
-1652851446 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/main.c
+1652933607 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/main.c
 	<stdlib.h>
 	<gtk/gtk.h>
 	"menu.h"
 
-1652851394 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/menu.h
+1652983011 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/menu.h
 	<gtk/gtk.h>
 
-1652851459 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/menu.c
+1652983011 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/menu.c
 	"menu.h"
 	<stdio.h>
+	<gtk/gtk.h>
+
+1652983555 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/log.cpp
+	"log.h"
+
+1652983602 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/include/log.h
+
+1652983381 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/log.h
+	<iostream>
+
+1652933607 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/main.c
+	<stdlib.h>
+	<gtk/gtk.h>
+	"menu.h"
+
+1652983011 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/menu.h
 	<gtk/gtk.h>
 

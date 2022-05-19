@@ -37,7 +37,7 @@ int main (int argc, char *argv[])
   //
 
 
-  setMenu(win);
+  setToolbar(win);
   /* Enter the main loop */
   gtk_widget_show_all (win);
   gtk_main ();
