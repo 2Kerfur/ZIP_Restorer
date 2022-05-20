@@ -1,4 +1,4 @@
 
 void AppLog(char message[]);
 
-#define APP_LOG(x) AppLog(x)
+#define LOG(x) AppLog(x)

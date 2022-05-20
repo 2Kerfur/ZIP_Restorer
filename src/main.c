@@ -8,6 +8,7 @@ int main (int argc, char *argv[])
   GtkWidget *button = NULL;
   GtkWidget *win = NULL;
 
+  GdkPixbuf *pixbuf;
 
   /* Initialize GTK+ */
   g_log_set_handler ("Gtk", G_LOG_LEVEL_WARNING, (GLogFunc) gtk_false, NULL);
@@ -20,11 +21,15 @@ int main (int argc, char *argv[])
   gtk_window_set_title (GTK_WINDOW (win), "ZIP Tester");
   gtk_window_set_position (GTK_WINDOW (win), GTK_WIN_POS_CENTER);
   gtk_window_set_default_size(GTK_WINDOW(win), 400, 300);
+  //gtk_window_set_icon (win, );//
   gtk_widget_realize (win);
   g_signal_connect (win, "destroy", gtk_main_quit, NULL);
 
   //set toolbar
   //
+  GtkWidget* gtk_button_new (
+  void
+)
 
 
   setToolbar(win);

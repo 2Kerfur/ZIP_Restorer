@@ -2704,10 +2704,11 @@
 1652983381 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/log.h
 	<iostream>
 
-1652933607 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/main.c
+1653017852 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/main.c
 	<stdlib.h>
 	<gtk/gtk.h>
 	"menu.h"
+	"tools/log.h"
 
 1652983011 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/menu.h
 	<gtk/gtk.h>
@@ -2722,5 +2723,5 @@
 	"log.h"
 	<stdio.h>
 
-1653018086 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/tools/log.h
+1653018350 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/tools/log.h
 
