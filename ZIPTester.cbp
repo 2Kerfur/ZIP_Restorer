@@ -37,13 +37,18 @@
 		<Linker>
 			<Add option="`pkg-config gtk+-2.0 --libs`" />
 		</Linker>
-		<Unit filename="main.c">
+		<Unit filename="src/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="menu.c">
+		<Unit filename="src/main.h" />
+		<Unit filename="src/menu.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="menu.h" />
+		<Unit filename="src/menu.h" />
+		<Unit filename="src/tools/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tools/log.h" />
 		<Extensions>
 			<DoxyBlocks>
 				<comment_style block="0" line="0" />

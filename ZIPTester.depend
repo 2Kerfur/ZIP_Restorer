@@ -2712,3 +2712,15 @@
 1652983011 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/menu.h
 	<gtk/gtk.h>
 
+1653017768 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/menu.c
+	"menu.h"
+	<stdio.h>
+	<gtk/gtk.h>
+	"tools/log.h"
+
+1653017711 source:/home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/tools/log.c
+	"log.h"
+	<stdio.h>
+
+1653018086 /home/kerfur/Документы/DEV/GIT/ZIP_Restorer/src/tools/log.h
+

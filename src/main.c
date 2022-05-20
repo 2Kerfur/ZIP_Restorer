@@ -1,16 +1,7 @@
 #include <stdlib.h>
 #include <gtk/gtk.h>
 #include "menu.h"
-
-static void zip_tester (GtkWidget *wid, GtkWidget *win)
-{
-  GtkWidget *dialog = NULL;
-
-  dialog = gtk_message_dialog_new (GTK_WINDOW (win), GTK_DIALOG_MODAL, GTK_MESSAGE_INFO, GTK_BUTTONS_CLOSE, "zip_tester");
-  gtk_window_set_position (GTK_WINDOW (dialog), GTK_WIN_POS_CENTER);
-  gtk_dialog_run (GTK_DIALOG (dialog));
-  gtk_widget_destroy (dialog);
-}
+#include "tools/log.h"
 
 int main (int argc, char *argv[])
 {
@@ -33,7 +24,6 @@ int main (int argc, char *argv[])
   g_signal_connect (win, "destroy", gtk_main_quit, NULL);
 
   //set toolbar
-
   //
 
 
