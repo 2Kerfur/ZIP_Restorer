@@ -1,6 +1,8 @@
 #include "menu.h"
 #include <stdio.h>
 #include <gtk/gtk.h>
+
+#include "tools/log.h"
 void setToolbar(GtkWidget *win)
 {
   GtkWidget *vbox;
@@ -31,6 +33,7 @@ void setToolbar(GtkWidget *win)
 
 
   gtk_box_pack_start(GTK_BOX(vbox), menubar, FALSE, FALSE, 0);
+
 
   g_signal_connect(G_OBJECT(quitMenuItem), "activate",
     G_CALLBACK(gtk_main_quit), NULL);
