@@ -9,7 +9,7 @@ Application for zip achives chracking using openCL
 
 ## About
 This project made in order to compress images for easy storage.
-Tested on Alt Linux 10. Created with Code::Blocks.
+Tested on Debian11 . Created with Code::Blocks.
 Uses gtk-2 library.
 
 ## Setup
